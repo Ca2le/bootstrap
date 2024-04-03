@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+  crossorigin="anonymous"
+/>
+  <style>
+    .card {
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #343a40; 
+      color: white;
+      text-align: center;
+      padding: 10px 0; 
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">K4ffeShop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Hem</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="products.html">Produkter</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="about.html">Om oss</a>
+                </li>
+      
+              </ul>
+          </div>
+        </div>
+      </nav>
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">K4ffe Maskiner</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="first.png" class="card-img-top" alt="Coffee Machine 1">
+            <div class="card-body">
+              <h5 class="card-title">K4ffe Maskin 121EFX</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card-text">Pris: 1200 SEK</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="second.png" class="card-img-top" alt="Coffee Machine 2">
+            <div class="card-body">
+                <h5 class="card-title">K4ffe Maskin 121EFX Turbo</h5>              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card-text">Pris: 11200 SEK</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="third.png" class="card-img-top" alt="Coffee Machine 3">
+            <div class="card-body">
+                <h5 class="card-title">K4ffe Maskin 121EFX Platinum Turbo</h5>              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card-text">Pris: 112099 SEK</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">K4ffe Party Produkter</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <img src="private.png" class="card-img-top" alt="K4ffe Party Busniess">
+            <div class="card-body">
+              <h5 class="card-title">K4ffe Party Busniess</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card-text">Pris: 52099 SEK</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <img src="busniess.png" class="card-img-top" alt="K4ffe Party Privat">
+            <div class="card-body">
+              <h5 class="card-title">K4ffe Party Privat</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card-text">Pris: 2099 SEK / person</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    &copy; 2024 K4ffeShop
+  </footer>
+</body>
+</html>
